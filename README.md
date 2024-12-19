@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug in TypeScript related to type guards and the handling of 'undefined' values within union types.  The `greet` function is designed to handle both string and null inputs, gracefully returning a default message if the name is null. However, the function fails if an 'undefined' value is passed, highlighting a gap in TypeScript's type checking system.
+
+The solution demonstrates a more robust way to handle union types including null and undefined to prevent the error.
